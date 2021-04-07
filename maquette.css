@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
 /*corps de page*/
+
 body{
     margin-left: 250px;
     margin-right: 250px;
@@ -8,17 +11,24 @@ body{
 }
 
 section{
-    height: 720px;
+    margin-top: -30px;
 }
+
+.services{
+    height: 750px;
+}
+
 /*navigation*/
-nav{
+
+.navcontainer{
     display: flex;
 }
 
 .logohamb{
-    flex-direction: row;
     justify-content: space-between;
+    width: 1162px;
 }
+
 /*header*/
 
 header{
@@ -50,7 +60,32 @@ header{
 .weleon{
     color: white;
 }
+
+.menuicons{
+    display: flex;
+}
+
+.menucontainer{
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+}
+
+.menuwrapper{
+    display: flex;
+}
+
+.headericons{
+    justify-content: center;
+}
+
+.symboles{
+    font-size: 40px;
+    color: rgba(0, 255, 255, 1);
+}
+
 /*Section 1*/
+
 .fond{
     position: relative;
     top: 130px;
@@ -143,6 +178,7 @@ img:hover
 }
 
 /*section 2*/
+
 .portfolio{
     background-color: #FBFBFB;  
 }
@@ -185,5 +221,14 @@ button:hover{
 }
 
 .imgportfolio{
-    width: 350px;
+    width: 300px;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
 }
