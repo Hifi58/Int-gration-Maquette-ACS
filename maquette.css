@@ -4,17 +4,52 @@
 body{
     margin-left: 250px;
     margin-right: 250px;
+    flex-wrap: wrap;
 }
 
-p{
-    text-align: justify;
+section{
+    height: 720px;
+}
+/*navigation*/
+nav{
+    display: flex;
 }
 
+.logohamb{
+    flex-direction: row;
+    justify-content: space-between;
+}
 /*header*/
-h1, h2, h3{
-   color: rgba(0, 255, 255, 0.753);
+
+header{
+    display: flex;
+    background-image: url(images/Fd.png);
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
 }
 
+.wrapper0{
+    flex-direction: column;
+}
+
+.hamburger{
+    text-align: end;
+    justify-content: flex-end;
+}
+
+.titre{
+   color: rgba(0, 255, 255, 1);
+   flex-direction: column;
+   justify-content: center;
+   font-size: 80px;
+   font-family: 'Abril Fatface', cursive;
+}
+
+.weleon{
+    color: white;
+}
 /*Section 1*/
 .fond{
     position: relative;
@@ -109,34 +144,28 @@ img:hover
 
 /*section 2*/
 .portfolio{
-    background-color: #FBFBFB;
-    
+    background-color: #FBFBFB;  
+}
+
+.portfolio p{
+    text-align: justify;
 }
 
 .wrapper2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    
 }
 
 .menu5, .menu6, .menu7{
-    display: grid;
+    justify-content: center;
+    text-align: center;
     position: relative;
     left: 150px;
 }
 
-.image2{
-    grid-auto-rows: auto;
-}
-
-text{
-    position: relative;
-    top: 150px;
-}
-
 .bouton{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
 
 button{
