@@ -232,3 +232,45 @@ button:hover{
         padding: 0;
     }
 }
+
+#notebook {
+	
+background-image:url(footer.jpeg);
+top: 1350px;
+left: 500px;
+width :468px;
+height: 200px;
+	
+	
+}
+
+
+#gaa{
+   height:25px;
+   width:100%;
+   background-color:black;
+}
+
+#rights {
+	
+	
+color: white;
+font-size:15px;
+position: absolute;
+top: 3015px;
+left: 650px;
+    
+    
+    h4 {
+
+
+	
+color: black;
+font-size:15px;
+position: absolute;
+top: 2817px;
+left: 650px;
+
+
+}
+
