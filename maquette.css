@@ -14,11 +14,16 @@ body {
 
 section {
   margin-top: -30px;
-  
 }
 
 .services {
   height: 750px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*navigation*/
@@ -29,28 +34,22 @@ section {
 
 .logohamb {
   justify-content: space-between;
-  width: 1162px;
 }
 
 /*header*/
 
 header {
   display: flex;
-  background-image: url(images/Fd.png);
+  background: #fff url(images/Fd.png) center center/cover no-repeat;
   background-size: cover;
   height: 400px;
   justify-content: center;
   text-align: center;
-  width: 1300px;
+  filter: brightness(125%);
 }
 
 .wrapper0 {
   flex-direction: column;
-}
-
-.hamburger {
-  text-align: end;
-  justify-content: flex-end;
 }
 
 .titre {
@@ -59,20 +58,23 @@ header {
   justify-content: center;
   font-size: 80px;
   font-family: "Abril Fatface", cursive;
+  margin-bottom: 10px;
 }
 
 .weleon {
-  color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-shadow: 3px 9px 23px #000000;
 }
 
 .menuicons {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .menucontainer {
   display: flex;
-  width: 1200px;
-  justify-content: center;
 }
 
 .menuwrapper {
@@ -133,8 +135,8 @@ b {
 .menu1,
 .menu2,
 .menu3,
-.menu4{
-    justify-content: center;
+.menu4 {
+  justify-content: center;
 }
 
 .menu1 {
@@ -190,8 +192,8 @@ img:hover {
   text-align: justify;
 }
 
-.container2{
-    display: flex;
+.container2 {
+  display: flex;
 }
 
 .wrapper2 {
@@ -205,6 +207,7 @@ img:hover {
 .menu7 {
   justify-content: center;
   text-align: center;
+  box-shadow: 0px 5px 15px 0px #000;
 }
 
 .bouton {
@@ -230,6 +233,76 @@ button:hover {
 
 .imgportfolio {
   width: 300px;
+  margin-right: 55px;
+}
+
+/*footer*/
+
+/*footer*/
+
+#notebook {
+  background-image: url(footer.jpeg);
+  /*width: 100%;
+  height: 100%;*/
+  margin-left: 150px;
+}
+
+#gaa {
+  height: 29px;
+  width: 120%;
+  background-color: black;
+  position: relative;
+  top: 353px;
+}
+
+#mail {
+  color: rgba(0, 255, 255, 1);
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 3183px;
+  left: 465px;
+}
+
+#network {
+  font-size: 16px;
+  position: absolute;
+  top: 3249px;
+  left: 465px;
+}
+#rights {
+  color: red;
+  font-size: 15px;
+  position: absolute;
+  top: 3446px;
+  left: 650px;
+}
+
+h4 {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 2817px;
+  left: 650px;
+}
+
+#contact {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  top: 3145px;
+  left: 450px;
+  color: #304e4a;
+}
+
+#filigranecontact {
+  position: relative;
+  top: 70px;
+  font-size: 89px;
+  opacity: 0.1;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 7px;
+  color: #232c70;
 }
 
 /*responsive*/
@@ -237,12 +310,10 @@ button:hover {
   body {
     margin: 0px;
     padding: 0px;
-    width: 1200px;
   }
 
   header {
     background-color: white;
-    width: 1200px;
     height: 700px;
   }
 
@@ -272,7 +343,6 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     font-size: 50px;
-    width: 1200px;
     text-align: center;
   }
 
@@ -285,8 +355,6 @@ button:hover {
   }
 
   .fond {
-    position: relative;
-    top: 130px;
     font-size: 100px;
     opacity: 0.1;
     font-family: "Abril Fatface", cursive;
@@ -316,7 +384,6 @@ button:hover {
 
   .wrapper {
     display: flex;
-    left: 300px;
     flex-direction: column;
   }
 
@@ -329,7 +396,6 @@ button:hover {
     text-align: center;
     font-size: 60px;
     flex-direction: column;
-    width: 800px;
   }
 
   .montagne {
@@ -340,9 +406,6 @@ button:hover {
     width: 200px;
     height: 230px;
     opacity: 0.95;
-    position: relative;
-    left: 30px;
-    top: 33px;
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
@@ -356,108 +419,11 @@ button:hover {
   }
 
   .fond {
-    width: 1200px;
     font-size: 250px;
     opacity: 0.5;
-    position: relative;
     top: 0;
     font-family: "Abril Fatface", cursive;
     letter-spacing: 7px;
     color: #232c70;
   }
-}
-
-/*footer*/
-
-
-
-#notebook {
-    background-image: url(footer.jpeg);
-  /*width: 100%;
-  height: 100%;*/
-  margin-left:150px;
-	
-}
-	
-
-#gaa{
-
-   height:29px;
-   width:120%;
-   background-color:black;
-   position: relative;
-   top: 353px;
-}
-
-#mail {
-
-color: rgba(0, 255, 255, 1);
-   font-size: 30px;
-   font-weight: bold;
-   position: absolute;
-   top: 3183px;
-   left: 465px;
-
-	}
-
-
-#network {
-
-   font-size: 16px;
-   position: absolute;
-   top: 3249px;
-   left: 465px;
-
-	}
-#rights {
-	
-	
-color: red;
-font-size:15px;
-position: absolute;
-top: 3446px;
-left: 650px;
-
-}
-
-    
-    
-    h4 {
-
-
-	
-color: black;
-font-size:15px;
-position: absolute;
-top: 2817px;
-left: 650px;
-
-
-}
-
-
-#contact {
-	   font-size: 35px;
-   font-weight: bold;
-   position: absolute;
-   top: 3145px;
-   left: 450px;
-   color: #304E4A;
-
-
-	
-	
-	
-}
-
-#filigranecontact {
-	
-	position: relative;
-    top: 70px;
-    font-size: 89px;
-    opacity: 0.1;
-    font-family: 'Abril Fatface', cursive;
-    letter-spacing: 7px;
-    color: #232C70;
-	
 }
