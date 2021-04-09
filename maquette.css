@@ -6,14 +6,12 @@
 body {
   margin: 0;
   padding: 0;
-  margin-left: 250px;
-  margin-right: 250px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 section {
-  margin-top: -30px;
+ margin-top: -30px;
 }
 
 .services {
@@ -24,6 +22,8 @@ p {
   font-family: "Montserrat", sans-serif;
   margin-left: 20px;
   margin-right: 20px;
+  word-spacing: 5px;
+  word-break: break-word;
 }
 
 /*navigation*/
@@ -42,7 +42,7 @@ header {
   display: flex;
   background: #fff url(images/Fd.png) center center/cover no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 600px;
   justify-content: center;
   text-align: center;
   filter: brightness(125%);
@@ -104,6 +104,7 @@ header {
 
 h1 {
   display: flex;
+  position: relative;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -184,7 +185,8 @@ img:hover {
 
 /*section 2*/
 
-.portfolio {
+.portfolio,
+.contact {
   background-color: #fbfbfb;
 }
 
@@ -192,20 +194,19 @@ img:hover {
   text-align: justify;
 }
 
-.container2 {
+.container2,
+.container4 {
   display: flex;
 }
 
 .wrapper2 {
   display: flex;
   width: 1300px;
-  justify-content: center;
 }
 
 .menu5,
 .menu6,
 .menu7 {
-  justify-content: center;
   text-align: center;
   box-shadow: 0px 5px 15px 0px #000;
 }
@@ -235,88 +236,107 @@ button:hover {
   width: 300px;
   margin-right: 55px;
 }
+ /*section3*/
+  .container3{
+    display: flex;
+  }
+
+ .wrapper3{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 35px;
+  grid-auto-rows: minmax(50px, auto);
+  text-align: justify;
+ }
+
+.border{
+  margin-left: 80px;
+  border-bottom: solid black;
+  padding-bottom: 20px;
+}
+
+.border2{
+  margin-left: 80px;
+  padding-top: 20px;
+}
+
+ .book {
+  grid-column: 1;
+  grid-row: 1;
+  margin-left: 550px;
+  margin-top: -20px;
+}
+
+.menu8 {
+  grid-column: 3;
+  position: static;
+}
+
+.menu9 {
+  grid-column: 3;
+  position: static;
+  margin-top: -150px;
+}
 
 /*footer*/
 
-/*footer*/
+.container4 {
+justify-content: center;
+margin-right: 600px;
+}
 
-#notebook {
-    /*background-image: url(footer.jpeg);
-  width: 100%;
-  height: 100%;
-  margin-left:150px;*/
-	
+
+.wrapper4 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.menu10{
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  font-weight: bolder;
+}
+
+.footer{
+  display: block;
+}
+
+.wrapper4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #gaa{
 
-   height:29px;
-   width:120%;
-   background-color:black;
-   position: relative;
-   top: 353px;
+ height:80px;
+ background-color:#232c70;
+ text-align: center;
+ 
 }
 
-#mail {
+#gaa p{
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.mail {
 
 color: rgba(0, 255, 255, 1);
-   font-size: 30px;
-   font-weight: bold;
-   position: absolute;
-   top: 3183px;
-   left: 465px;
-
-	}
+ font-size: 30px;
+ font-weight: bold;
+ text-decoration: none;
+}
 
 
 #network {
-
-   font-size: 16px;
-   position: absolute;
-   top: 3249px;
-   left: 465px;
-
-	}
-#rights {
-	
-	
-color: white;
-font-size:15px;
-position: absolute;
-top: 3376px;
-left: 650px;
-
-}
-
-h4 {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  top: 2817px;
-  left: 650px;
-}
-
-#contact {
-	   font-size: 35px;
-   font-weight: bold;
-   position: absolute;
-   top: 3145px;
-   left: 450px;
-   color: #304E4A;
-
-	
-}
-
-#filigranecontact {
-	
-	position: relative;
-    top: 70px;
-    font-size: 89px;
-    opacity: 0.1;
-    font-family: 'Abril Fatface', cursive;
-    letter-spacing: 7px;
-    color: #232C70;
-  
+ font-size: 16px;
 }
 
 /*responsive*/
@@ -440,42 +460,4 @@ h4 {
     letter-spacing: 7px;
     color: #232c70;
   }
-}
-.book {
-
-    display: flex;
-      justify-content: center;
-  align-items: center;
-    
-}
-.container3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.wrapper3
-{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-.container4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
-.wrapper4 {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
 }
