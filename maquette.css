@@ -241,41 +241,51 @@ button:hover {
 /*footer*/
 
 #notebook {
-  background-image: url(footer.jpeg);
+    background-image: url(footer.jpeg);
   /*width: 100%;
   height: 100%;*/
-  margin-left: 150px;
+  margin-left:150px;
+	
 }
 
-#gaa {
-  height: 29px;
-  width: 120%;
-  background-color: black;
-  position: relative;
-  top: 353px;
+#gaa{
+
+   height:29px;
+   width:120%;
+   background-color:black;
+   position: relative;
+   top: 353px;
 }
 
 #mail {
-  color: rgba(0, 255, 255, 1);
-  font-size: 30px;
-  font-weight: bold;
-  position: absolute;
-  top: 3183px;
-  left: 465px;
-}
+
+color: rgba(0, 255, 255, 1);
+   font-size: 30px;
+   font-weight: bold;
+   position: absolute;
+   top: 3183px;
+   left: 465px;
+
+	}
+
 
 #network {
-  font-size: 16px;
-  position: absolute;
-  top: 3249px;
-  left: 465px;
-}
+
+   font-size: 16px;
+   position: absolute;
+   top: 3249px;
+   left: 465px;
+
+	}
 #rights {
-  color: red;
-  font-size: 15px;
-  position: absolute;
-  top: 3446px;
-  left: 650px;
+	
+	
+color: white;
+font-size:15px;
+position: absolute;
+top: 3376px;
+left: 650px;
+
 }
 
 h4 {
@@ -287,22 +297,26 @@ h4 {
 }
 
 #contact {
-  font-size: 35px;
-  font-weight: bold;
-  position: absolute;
-  top: 3145px;
-  left: 450px;
-  color: #304e4a;
+	   font-size: 35px;
+   font-weight: bold;
+   position: absolute;
+   top: 3145px;
+   left: 450px;
+   color: #304E4A;
+
+	
 }
 
 #filigranecontact {
-  position: relative;
-  top: 70px;
-  font-size: 89px;
-  opacity: 0.1;
-  font-family: "Abril Fatface", cursive;
-  letter-spacing: 7px;
-  color: #232c70;
+	
+	position: relative;
+    top: 70px;
+    font-size: 89px;
+    opacity: 0.1;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 7px;
+    color: #232C70;
+  
 }
 
 /*responsive*/
