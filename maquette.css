@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 /*corps de page*/
+html{
+    scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -11,7 +14,7 @@ body {
 }
 
 section {
- margin-top: -30px;
+ margin-top: -80px;
 }
 
 .services {
@@ -28,12 +31,15 @@ p {
 
 /*navigation*/
 
-.navcontainer {
-  display: flex;
+.nav{
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 
-.logohamb {
-  justify-content: space-between;
+.span{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*header*/
@@ -83,6 +89,7 @@ header {
 
 .headericons {
   justify-content: center;
+  padding-top: 60px;
 }
 
 .symboles {
@@ -185,8 +192,8 @@ img:hover {
 
 /*section 2*/
 
-.portfolio,
-.contact {
+#portfolio,
+#contact {
   background-color: #fbfbfb;
 }
 
@@ -236,7 +243,9 @@ button:hover {
   width: 300px;
   margin-right: 55px;
 }
+
  /*section3*/
+
   .container3{
     display: flex;
   }
@@ -252,12 +261,14 @@ button:hover {
 .border{
   margin-left: 80px;
   border-bottom: solid black;
-  padding-bottom: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 .border2{
   margin-left: 80px;
-  padding-top: 20px;
+  padding-top: 50px;
+  font-weight: lighter;
 }
 
  .book {
@@ -342,8 +353,8 @@ color: rgba(0, 255, 255, 1);
 /*responsive*/
 @media all and (max-width: 1024px) {
   body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
 
   header {
