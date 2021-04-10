@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="maquette.css" />
+    <title>Hello There !</title>
+  </head>
+
+  <body>
+    <!--Début du header-->
+
+    <header>
+      <div class="wrapper0">
+        <h1 class="titre">Hello There!</h1>
+        <p class="weleon">
+          We are Leon -Super Creative - Minimal <br />
+          Agency Web Template
+        </p>
+      </div>
+    </header>
+    <section class="menuicons">
+      <div class="menucontainer">
+        <div class="menuwrapper">
+          <div class="headericons">
+            <h1 class="symboles">&#10000;</h1>
+            <h1 class="soustitre">Tell Us Your Idea</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+          &emsp; &emsp; &emsp; &emsp;
+          <div class="headericons">
+            <h1 class="symboles">&#9874;</h1>
+            <h1 class="soustitre">We Will Do All The Work</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+          &emsp; &emsp; &emsp; &emsp;
+          <div class="headericons">
+            <h1 class="symboles">&#9992;</h1>
+            <h1 class="soustitre">Your Product Is Worldwide</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Fin du header-->
+
+    <!--Section services-->
+
+    <section class="services">
+      <h1 class="fond">services</h1>
+      <h1 class="soustitre">Don't be busy, be productive</h1>
+      <br />
+      <div class="container">
+        <div class="wrapper">
+          <div class="menu1">
+            <h2 class="titre2"><b>&#9812;</b> graphic design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+
+          <div class="menu2">
+            <h2 class="titre2"><b>&#9813;</b> UI & UX</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+
+          <div class="menu3">
+            <h2 class="titre2"><b>&#9814;</b> Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+
+          <div class="menu4">
+            <h2 class="titre2"><b>&#9816;</b> Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur<br />
+              adipisicing elit. Velit voluptatum ipsam enim<br />
+              magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+              amet consectetur adipisicing elit. Velit<br />
+              voluptatum ipsam enim magni debitis sequi ab!
+            </p>
+          </div>
+        </div>
+        <div class="image">
+          <img class="montagne" src="images/montagneb.png" alt="montagne" />
+        </div>
+
+        <div class="bandeau"></div>
+      </div>
+    </section>
+
+    <!--Fin Section service-->
+
+    <!--Section portfolio-->
+
+    <section class="portfolio">
+      <h1 class="fond">portfolio</h1>
+      <h1 class="soustitre">if you do it right, it will last forever</h1>
+      <br />
+      <div class="container2">
+        <div class="wrapper2">
+          <div class="menu5">
+            <div class="image2">
+              <img class="imgportfolio" src="images/cahier.jpeg" alt="Cahier" />
+              <br />
+              <br />
+              <h3>Projet</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur<br />
+                adipisicing elit. Velit voluptatum ipsam enim<br />
+                magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+                amet consectetur adipisicing elit. Velit<br />
+                voluptatum ipsam enim magni debitis sequi ab!
+              </p>
+            </div>
+          </div>
+          &emsp;
+          <div class="menu6">
+            <div class="image2">
+              <img class="imgportfolio" src="images/mac.jpeg" alt="Cahier" />
+              <br />
+              <br />
+              <h3>Projet</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur<br />
+                adipisicing elit. Velit voluptatum ipsam enim<br />
+                magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+                amet consectetur adipisicing elit. Velit<br />
+                voluptatum ipsam enim magni debitis sequi ab!
+              </p>
+            </div>
+          </div>
+          &emsp;
+          <div class="menu7">
+            <div class="image2">
+              <img class="imgportfolio" src="images/livre.jpeg" alt="Cahier" />
+              <br />
+              <br />
+              <h3>Projet</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur<br />
+                adipisicing elit. Velit voluptatum ipsam enim<br />
+                magni debitis sequi ab! Lorem ipsum dolor sit,<br />
+                amet consectetur adipisicing elit. Velit<br />
+                voluptatum ipsam enim magni debitis sequi ab!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="bouton">
+        <button>Show me more</button>
+      </div>
+      <br />
+    </section>
+
+    <!--Fin section portfolio-->
+
+    <!--Section about-->
+
+    <section class="about">
+      <h1 class="fond">about</h1>
+      <h1 class="soustitre">Less is more work</h1>
+      <br />
+      <br />
+      <div class="container3">
+        <div class="wrapper3">
+          <div class="book">
+            <img id="notebook" src="images/footer.jpg" alt="Notebook." />
+          </div>
+          <div class="menu8">
+            <h4 class="border">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
+              sed do elusmod tempore incidlunt ut labore et dolore Lorem ipsum,<br>
+              dolor sit amet consectetur adipisicing elit. <br />
+              sed do elusmod tempore incidlunt ut labore et dolore Lorem ipsum.
+            </h4>
+          </div>
+
+          <div class="menu9">
+            <h4 class="border2">
+              magna allqua. Ut enlm ad minim velam, quls nostrud exarcltation<br>
+              ullamco laborls nlsi ut allqui Lorem ipsum, dolor sit amet<br>
+              consectetur adipisicing elit. <br />
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Fin section about-->
+
+    <!-- footer-->
+
+    <footer>
+      <section class="contact">
+        <h1 class="fond">Contact</h1>
+        <h1 class="soustitre">I was born to create</h1>
+
+        <div class="container4">
+          <div class="wrapper4">
+            <div class="menu10">
+              <p class="feelfree">Feel free to drop us a line at :</p>
+            </div>
+            <div class="menu11">
+              <a class="mail" href="mailto:moi@gmail.lui"
+                >leonagency@mail.com</a
+              >
+            </div>
+            <div class="menu12">find us on social network : "</div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="footer">
+          <div id="gaa"><p>© 2019 - Leon, All rights reserved</p></div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
 
